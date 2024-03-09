@@ -1,17 +1,13 @@
-import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+import SideNav from "./components/SideNav";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <div>Ass</div>
+      <SideNav />
     </>
   );
 }
-
-
 
 export default App;
 
