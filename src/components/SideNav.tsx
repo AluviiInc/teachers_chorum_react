@@ -1,4 +1,5 @@
 import * as React from 'react';
+
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -16,8 +17,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import ImageIcon from '@mui/icons-material/Image';
 
 const drawerWidth = 240;
 
@@ -125,7 +126,7 @@ export default function PersistentDrawerLeft() {
             <ListItem key={text} disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                  {index % 2 === 0 ? <CalendarMonthIcon /> : <ImageIcon />}
                 </ListItemIcon>
                 <ListItemText primary={text} />
               </ListItemButton>
