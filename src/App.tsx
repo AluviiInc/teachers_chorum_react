@@ -1,10 +1,10 @@
-import SideNav from "./components/SideNav";
+import AppBar from "./components/AppBar";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <SideNav />
+      <AppBar />
     </>
   );
 }
