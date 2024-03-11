@@ -1,15 +1,14 @@
-import AppBar from "./components/AppBar";
-import "./App.css";
+import Navbar from "./components/Navbar";
 
-function App() {
+
+const App = () => {
+  
+
   return (
-    <>
-      <AppBar />
-    </>
-  );
+    <div className='App'> 
+   <Navbar/>
+    </div>
+  ); 
 }
 
 export default App;
-
-
-
