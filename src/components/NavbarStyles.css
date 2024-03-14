@@ -78,6 +78,9 @@ img {
 
     #mobile {
         display: block;
+        position: absolute;
+        top: 45px;
+        right: 30px;
     }
 
     #mobile i {
